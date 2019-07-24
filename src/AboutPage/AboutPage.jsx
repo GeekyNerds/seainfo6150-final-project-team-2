@@ -1,15 +1,17 @@
 import React from "react";
+import styles from "./AboutPage.module.css";
 
 const AboutPage = () => {
   return (
-    <div>
-      This is the About page
+    <div className={styles.container}>
+      <h1>About STU</h1>
       <br />
-      Seattle Technological University is known for the excellence of our
+      <h3>Seattle Technological University is known for the excellence of our
       education, the beauty of our setting, our gifted faculty, and the
-      uniqueness of our campus culture.
+      uniqueness of our campus culture.</h3>
       <br />
-      A Transformative Educational Experience <br />
+
+      <h2>A Transformative Educational Experience <br /></h2>
       Every year, some 2,400 of the world’s top undergraduate students are
       challenged to exceed their own highest personal and intellectual
       expectations. The mastery our graduates demonstrate across the
@@ -29,8 +31,9 @@ const AboutPage = () => {
       think, act, and contribute meaningfully and effectively in their chosen
       areas of interest.
       <br />
-      The “Full-Engagement” Advantage
       <br />
+      
+      <h2>The “Full-Engagement” Advantage <br /></h2>
       Our full-engagement academic philosophy extends to the running of the
       College itself. The student voice is central to decision-making here;
       students serve on major committees of the Board of Trustees, participate
@@ -45,11 +48,14 @@ const AboutPage = () => {
       Expected to be fully engaged while here, students carry this sense of
       purposeful involvement and personal commitment throughout life.
       <br />
-      A Widely Envied Campus Environment
       <br />
+
+      <h2>A Widely Envied Campus Environment <br /></h2>
       The sheer sense of scale of the breathtaking natural environment, in which
       buildings are thoughtfully sited, distinguish our physical setting in the
       classically Northwest town of Seattle, Washington.
+      <br />
+      <br />
     </div>
   );
 };

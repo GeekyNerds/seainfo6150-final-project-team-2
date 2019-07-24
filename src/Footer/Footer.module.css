@@ -1,0 +1,22 @@
+#flex {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flex_container {
+    display: flex;
+    background-color: black;
+    height: 3rem;
+    padding: 2rem;
+  }
+  
+  /* #footer {
+    color: white;
+  } */
+
+  .icon, .footer {
+    font-size: 2rem;
+    color: whitesmoke;
+    margin: .5rem;
+  }

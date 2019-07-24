@@ -1,11 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Calendar from "../Calendar/Calendar";
+import Calendar from "../Calendar/Calendarr";
+import styles from "./CalendarPage.module.css";
 
 const CalendarPage = ({ dates }) => {
   return (
-    <div>
-      This is the calendar page
+    <div className={styles.container}>
+      {/* This is the calendar page */}
       <Calendar dates={dates} />
     </div>
   )

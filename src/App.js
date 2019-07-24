@@ -3,6 +3,12 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 import "./App.css";
 
+// header
+import Header from "./Header/Header";
+
+// footer
+import Footer from "./Footer/Footer";
+
 // nav
 import MainNav from "./MainNav/MainNav";
 
@@ -27,8 +33,10 @@ function App() {
     <div className="App">
       <Router>
         <header>
-          This is a page header that will persist on every page
-          <hr />
+          {/* This is a page header that will persist on every page */}
+          {/* <MainNav /> */}
+          {/* <hr /> */}
+          <Header />
         </header>
         <main>
           <Switch>
@@ -80,10 +88,11 @@ function App() {
             <Route component={ErrorPage} />
           </Switch>
         </main>
-        <footer>
-          <hr />
-          This is a page footer that will persist on every page
-        </footer>
+      
+        {/* <hr /> */}
+        {/* This is a page footer that will persist on every page */}
+        <Footer />
+        
       </Router>
     </div>
   );

@@ -1,0 +1,36 @@
+/* #background1 {
+    width: 100%;
+    background-image: url("../public/background_low.jpg");
+} */
+
+/* #background1 {
+    width: 100%;
+    background-image: url("../public/background_low.jpg");
+} */
+
+.slide_container {
+    position: relative;
+}
+
+img {
+    width:  100%;
+    /* margin-top: -350px; */
+}
+
+.slide_text {
+    position: absolute; 
+    z-index:9999; 
+    top: 20rem;
+    left: 2rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
+
+
+.ant-carousel, .slick-slide {
+    /* text-align: center; */
+    /* height: 1200px; */
+    /* line-height: 160px; */
+    background: black;
+    overflow: hidden;
+  }
